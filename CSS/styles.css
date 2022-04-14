@@ -1,16 +1,12 @@
 
-#titulo /*titulo principal*/
+.titulo /*titulo principal*/
 {
-    border-style: solid; /*borde solido*/
-    border-color: white; /*color de borde*/
-    border-radius: 10px; /*redondear el borde*/
-    border-width: 5px; /*ancho de borde*/
     text-align: center;/*central el texto*/
     text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;/*fuente de texto*/
-    padding: 20px;/*el ancho del titulo*/
+    padding: 10px;/*el ancho del titulo*/
     color: white;/*color del titulo*/
-    font-size: 60px; /*ancho de fuente*/
+    font-size: 30px; /*ancho de fuente*/
    
    
 }
@@ -40,6 +36,23 @@
     border-width: 1px; /*ancho de borde*/
     text-align: center;/*central el texto*/
     float: left;/*la imagen se va hacia la izquierda*/
+   
+}
+
+.logonavbar/*logo del navbar*/
+{
+  
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 100px; /*redondear el borde*/
+    border-width: 2px; /*ancho de borde*/
+   
+}
+
+.botonderecha/*logo del navbar*/
+{
+  
+  margin-left: 100px;
    
 }
 
@@ -305,14 +318,15 @@ background-color: antiquewhite;/*cambia el fondo*/
    margin-top: 15px;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 100px 0.3fr 1fr 0fr;
+   grid-template-rows: 100px 0.3fr 1fr 1fr 0fr;
    gap: 10px 10px;
    grid-auto-flow: row;
    grid-template-areas:
      "color1 color1 color1 color1"
      "box1 box2 box3 box4"
      "color2 color2 color2 color2"
-     "color3 color3 color3 color3";
+     "color3 color3 color3 color3"
+     "color4 color4 color4 color4";
    grid-area: grid-main;
  }
  
@@ -384,6 +398,25 @@ background-color: antiquewhite;/*cambia el fondo*/
  .color3
  { 
    grid-area: color3;
+   color: rgb(201, 164, 14);/*color de letra*/
+   font-size: 20px;/*tamaño de la fuente*/
+   text-align: left;/*texto hacia la izquierda*/
+   border-style: solid; /*borde solido*/
+   border-color: white; /*color de borde*/
+   border-radius: 30px; /*redondear el borde*/
+   border-width: 6px; /*ancho de borde*/
+ }
+
+ .color4
+ { 
+   grid-area: color4;
+   color: rgb(201, 164, 14);/*color de letra*/
+   font-size: 20px;/*tamaño de la fuente*/
+   text-align: left;/*texto hacia la izquierda*/
+   border-style: solid; /*borde solido*/
+   border-color: white; /*color de borde*/
+   border-radius: 30px; /*redondear el borde*/
+   border-width: 6px; /*ancho de borde*/
    
  }
 /*-----------------------------------GRID DE PAGINA DE SERVICIO--------------------------------------------------------------*/
@@ -391,7 +424,7 @@ background-color: antiquewhite;/*cambia el fondo*/
 {  
     display: grid;
     grid-template-columns: 0.3fr 2.4fr 0.3fr;
-    grid-template-rows: 350px 2500px 1px;
+    grid-template-rows: 100px 2200px 1px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:

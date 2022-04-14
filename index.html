@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="shortcut icon" href="IMG/MKT.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/styles.css">
     <title> MKT DIGITAL </title>
     <!-- LINK DE ANIMACIONES -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rrel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <!-- MI CSS ANTES TODO -->
     <link rel="stylesheet" href="CSS/styles.css">
 
@@ -25,42 +25,71 @@
    <div class="grid-container">
 
       <div class="grid-navbar">
-         <section id="titulo"> 
-            <img class="logo"  src="IMG/MKT.jpeg" width="90" height="90"><!-- logo-->
-            <h1 class="wow animate__animated animate__tada"> Si all marketing ! </h1> <!-- El titulo de la pagina-->
-         </section>
+         <!-- COMIENZO NAVBAR BOOTSTRAP -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+               <img class="logonavbar"  src="IMG/MKT.jpeg" width="40" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                   <!--INICIO -->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+
+                  <!--SERVICIOS -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="PAGES/servicios.html"> Servicios </a>
+                  </li>
+
+                  <!--PLANES DE CONTENIDO -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plan de contenido
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="PAGES/planesdecontenido.html">Plan basico</a></li>
+                      
+                      <li><a class="dropdown-item" href="PAGES/planesdecontenido.html">Plan estandar</a></li>
+                      
+                      <li><a class="dropdown-item" href="PAGES/planesdecontenido.html">Plan premium</a></li>
+                    </ul>
+                  </li>
+
+                  <!--NOSOTROS -->
+                  <li class="nav-item">
+                     <a class="nav-link" href="PAGES/nosotros.html"> Nosotros</a>
+                   </li>
+
+                   <!--CONTACTOS -->
+                  <li class="nav-item">
+                     <a class="nav-link" href="PAGES/contacto.html"> Contacto</a>
+                   </li>
+
+
+                </ul>
+
+                <form class="d-flex">
+                  <button type="button" class="btn btn-secondary d-flex justify-content-end">Si All Marketing</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+           <!-- FIN  NAVBAR BOOTSTRAP -->
       </div>
 
+
       <div class="grid-main">
-         
+
          <div class="color1"> 
             <header> <!-- Menu -->
                <main>
-                  <section class="flex-container">
-                    
-                     <div class="box">
-                        <a href="index.html"  >INICIO</a>
-                     </div>
-            
-                     <div class="box">
-                        <a href="PAGES/servicios.html"   >SERVICIOS</a>
-                     </div>
-            
-                     <div class="box">
-                        <a href="PAGES/planesdecontenido.html">PLANES</a>
-                     </div>
-            
-                     <div class="box">
-                        <a href="PAGES/nosotros.html">NOSOTROS</a>
-                     </div>
-
-                     <div class="box">
-                        <a href="PAGES/contacto.html">CONTACTO</a>
-                     </div>
-                     
-                   
-
-                  </section>
+                  <h1 class="titulo wow animate__animated animate__fadeOut"> SOMOS TU AGENCIA DE MARKETING Y COMUNICACIÓN</h1> <!-- El titulo de la pagina-->
                </main>
             </header>
          </div>
@@ -81,42 +110,36 @@
            <img class="imagenremera" src="IMG/LAPICERA.JPG">  
        </div>
 
-        <div class="wow animate__animated animate__bounceIn color2"> 
-            <p ><b>Una agencia de marketing digital es una empresa encargada de diseñar la estrategia de marketing online integral de un negocio y llevarla a cabo. Para ello, debe contar con expertos en diferentes disciplinas y servicios: </b></p>
-            <br>
-       
-            <ol>        
-            <li> <b> <u>Auditoría de marketing digital </u> </b> </li>
+        <div class="wow animate__animated animate__bounceIn color2">         
+            <h3> BRANDING & CREATIVIDAD </h3> 
+            <h5> EMPEZANDO CON BUEN PIE, EL ADN DE TU MARCA. </h5>
             <p >Antes de lanzarse a la elaboración de un plan, tenemos que analizar en detalle la situación actual. Una agencia de marketing digital puede ayudarnos a hacerlo mediante una auditoría de los canales y acciones de marketing de la empresa.</p>
-         
-            <li> <b> <u>Posicionamiento en buscadores </u> </b></li>
-            <p >Através de técnicas de posicionamiento orgánico a largo plazo (SEO) o de anuncios pagados en buscadores (SEM), se busca incrementar la visibilidad de la empresa cuando los consumidores hacen búsquedas relacionadas con ella. De esta manera se consigue generar tráfico de alta calidad a su sitio web.</p>
-         
-            <li> <b> <u>Social Ads</u> </b> </li>
-            <p >Los anuncios en redes sociales o social ads permiten llegar a los usuarios en los sitios en los que pasan más tiempo. Este tipo de campañas tiene un gran potencial gracias a la variedad de segmentaciones y audiencias que ofrecen. Para dar en la diana, también es muy importante tener en cuenta el perfil de usuario propio de cada red.</p>
-         
-            <li> <b> <u>Email marketing</u> </b> </li>
-            <p >Lejos de quedarse desfasado, el marketing por correo electrónico sigue siendo una de las acciones con más recorrido del marketing digital y la que mejores resultados ofrece a nivel de retorno de la inversión (ROI). Resulta especialmente adecuado para estrategias de lead nurturing y fidelización.</p>
-         
-            <li> <b> <u>Inbound marketing</u> </b> </li>
-            <p >La metodología inbound marketing se basa en la creación de contenidos de valor, para atraer de manera natural a usuarios potencialmente interesados en la marca y convertirlos en clientes. Se trata de una manera más orgánica y menos invasiva de hacer crecer tu negocio, en comparación con las estrategias outbound tradicionales.</p>
-         
-            <li> <b> <u>Marketing de contenidos </u> </b></li>
-            <p >El content marketing es uno de los principales pilares donde se sustentan las estrategias de inbound marketing. Se basa en aportar valor al usuario mediante contenidos que den respuesta a sus necesidades en diferentes fases del embudo de conversión.</p>
-         
-            <li> <b> <u>Publicidad nativa </u> </b></li>
-            <p > La publicidad nativa es un formato publicitario no invasivo que se adapta al entorno digital en el que se inserta y atrae a los usuarios mediante un contenido informativo y de interés. Este tipo de formatos se integran en los medios digitales para ofrecer una experiencia de usuario no disruptiva.</p>
-         
-            <li><b> <u> Video marketing </u> </b></li>
-            <p >En los últimos años, el vídeo se ha convertido en un contenido extremadamente popular en internet. Para las marcas, es una oportunidad fantástica para poder comunicar y contar historias de una manera que resulta muy atractiva para los usuarios.</p>
-         
-            <li> <b> <u>Data science </u> </b></li>
-            <p >A día de hoy, la cantidad de datos que creamos es tan enorme que resulta difícil asimilarla, elaborarla y extraer valor de ella. Por ello, la ciencia de datos acude al rescate para ayudarnos a convertir este montón de información desorganizada en insights valiosos para la marca.</p>
-        
-            <li> <b> <u>Formación a medida </u> </b></li>
-            <p >La agencia de marketing digital y la empresa cliente deben ir de la mano y trabajar como socios. Por eso, es muy importante que los responsables y los trabajadores de la empresa cliente entiendan los fundamentos del marketing digital e incluso puedan colaborar de manera activa con las campañas. Para conseguirlo, las mejores agencias de marketing digital ofrecen servicios de formación adaptados a las necesidades de sus clientes.</p>
-            </ol>
+            <ol>Branding e identidad corporativa.</ol>
+            <ol>Reposicionamiento de marca.</ol>
+            <ol>Vídeos corporativos y canal audiovisual</ol>
+            <p >El branding como factor principal de una empresa desempeña un papel primordial a la hora de tener una línea directa al éxito o ir a la deriva y dejar que la suerte esté de nuestro lado. Por eso es tan importante que el proceso de creación de la marca sea lo más llamativo y completo.</p>    
         </div>
+
+        <div class="wow animate__animated animate__bounceIn color3">         
+         <h3> MARKETING & PUBLICIDAD </h3> 
+         <h5> LA COMUNICACIÓN MÁS DIRECTA CON LA AUDIENCIA DE TU MARCA. </h5>
+         <p >Diseñamos e implementamos estrategias innovadoras que conectan con la vida de las personas y que influyen en los resultados de las marcas para las que trabajamos.</p>
+         <p >Creamos estrategias de marketing para conseguir y fidelizar clientes. Diseñamos e implementamos campañas publicitarias</p>
+         <ol>Social Media Marketing y redes sociales..</ol>
+         <ol>Publicidad SEM.</ol>
+    
+        </div>
+
+        <div class="wow animate__animated animate__bounceIn color4">         
+         <h3> DISEÑO & DESARROLLO WEB</h3> 
+         <p >Creamos webs adaptadas a las necesidades de tus clientes</p>
+         <ol>Diseño y desarrollo web.</ol>
+         <ol>Posicionamiento SEO.</ol>
+         <p >Independientemente de la madurez de tu negocio y del paisaje competitivo, tu estrategia es el elemento previo esencial para diseñar tu página web alineada con tus objetivos de negocio, lista para lograr altas tasas de conversión y muy enfocada a resultados.</p>    
+         <p>Te ayudamos a definir tu estrategia (a medio y largo plazo)  para posicionarte como referente de tu industria, conectar de manera efectiva con tus clientes y desplegar ante sus ojos tu propuesta de productos o servicios con la intención de conducir a tu empresa al siguiente nivel.</p>
+         <p>Tener la mejor de las webs no sirve de nada si tus clientes no la encuentran, por eso nuestro trabajo va más allá…</p>
+         <p>Has de asegurarte que tu web sea creada con las mejores prácticas de optimización de motores de búsqueda, con la mejor arquitectura, y sobre todo, con una velocidad de carga rápida.</p>
+      </div>
 
         <div class="color3"> 
            
@@ -147,9 +170,9 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
+    <script>new WOW().init(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
