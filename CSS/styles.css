@@ -1,0 +1,737 @@
+
+#titulo /*titulo principal*/
+{
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 10px; /*redondear el borde*/
+    border-width: 5px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*fuente de texto*/
+    padding: 20px;/*el ancho del titulo*/
+    color: white;/*color del titulo*/
+    font-size: 60px; /*ancho de fuente*/
+   
+   
+}
+
+.titulo-secundario /*titulo principal secundario*/
+{
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 10px; /*redondear el borde*/
+    border-width: 5px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*fuente de texto*/
+    padding: 20px;/*el ancho del titulo*/
+    color: white;/*color del titulo*/
+    font-size: 60px;/*ancho de fuente*/
+   
+}
+
+.logo/*logo del titulo*/
+{
+    margin-top: 70px;
+    margin-left: 30px;
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 100px; /*redondear el borde*/
+    border-width: 1px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    float: left;/*la imagen se va hacia la izquierda*/
+   
+}
+
+.clientesservicios
+{
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 100px; /*redondear el borde*/
+    border-width: 1px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    float: left;/*la imagen se va hacia la izquierda*/
+   
+}
+
+
+.menu /*menu de la pagina*/
+{
+    font-size: 20px;/*tamaño de la fuente*/
+    display: inline-block;/*todo en la misma linea*/
+    width: 19%; /*el ancho del contenedor*/
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 10px; /*redondear el borde*/
+    border-width: 2px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    font-family: cursive;/*tipo de letra*/
+    
+} 
+ 
+
+a /*hace que los redireccionamientos a la pagina no salgan como hipervinculos*/
+{
+   text-decoration: none; /*hace que el texto no sea decorado*/
+    color: white;/*color de letra*/
+    font-size: 20px;/*ancho de fuente*/
+}
+
+.formulario
+{
+    color: rgb(0, 0, 0);/*color de letra*/
+    font-size: 20px;/*ancho de fuente*/
+}
+
+.texto1 /*tipo de texto 1*/
+{
+    color: white; /*color de letra*/
+    font-size: 50px; /*tamaño de la fuente*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+}
+
+.texto2 /*tipo de texto 2*/
+{
+    color: white;/*color de letra*/
+    font-size: 20px;/*tamaño de la fuente*/
+    text-align: left;/*texto hacia la izquierda*/
+    
+}
+
+.texto3 /*tipo de texto 3*/
+{
+    color: white;/*color de letra*/
+    font-size: 20px;/*tamaño de la fuente*/
+    text-align: right; /*texto hacia la derecha*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    
+}
+
+.texto4 /*tipo de texto 4*/
+{
+    color: rgb(255, 255, 255);/*color de letra*/
+    font-size: 20px;/*tamaño de la fuente*/
+    text-align: center;/*texto centrado*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    
+}
+
+.texto5 /*tipo de texto 5*/
+{
+    color: rgb(255, 255, 255);/*color de letra*/
+    font-size: 30px;/*tamaño de la fuente*/
+    text-align: center;/*texto centrado*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    list-style-type: none; /*elimina los puntitos de las lsitas*/
+    
+}
+
+.textocentrado /*centrado de text0*/
+{
+    color: rgb(255, 255, 255);/*color de letra*/
+    font-size: 50px;/*tamaño de la fuente*/
+    text-align: center;/*central el texto*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    
+}
+
+.marketing /*3 imagenes de la pagina principal*/
+{
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 100px; /*redondear el borde*/
+    border-width: 1px; /*ancho de borde*/
+    
+}
+
+body /*fondo de la pagina*/
+{
+background-color: rgb(240, 188, 231);/*cambia el fondo*/
+background-image: url("https://grupoact.com.ar/wp-content/uploads/2021/06/fondo-beige.png"); /* imagen en la web */
+background-size: cover; /*ocupan todo el contenedor*/
+background-repeat:no-repeat;/*para que no se repita la imagen de fondo*/
+background-attachment: fixed;/*para que el fondo sea fijo*/
+
+}
+
+.logofooter /*los logos de intagram facebook y whatapp del footer*/
+{
+    margin-left: 20px;
+    border-style: none; /*sin borde*/
+    text-align: center;/*central el texto*/
+    float: left;/*la imagen se va hacia la izquierda*/
+
+}
+
+.webcentrado/*centrar youtube y maps en el medio*/
+{
+    display: block;/*hace que se haga un bloque*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imagenservicio/*planes de cervicios*/
+{
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 50px; /*redondear el borde*/
+    border-width: 1px; /*ancho de borde*/ 
+
+}
+
+.boxcentrado/*contenedor centrado*/
+{
+    display: flex;
+    justify-content: center;  
+}
+
+table /*tabla de plantilla de contenido*/
+{
+   width: 100%;
+   height: 220px;
+   color: aliceblue;
+   text-align: center;
+   
+}
+
+
+th /*ttitulos de la tabla de plantilla de contenido*/
+{
+    font-size: 25px;/*tamaño de la fuente*/
+    background-color: rgb(228, 178, 72);/*cambia el fondo*/
+
+}
+
+td /*celdas de menor rango de la tabla de plantilla de contenido*/
+{
+    font-size: 20px;/*tamaño de la fuente*/
+    background-color: rgb(230, 212, 154);/*cambia el fondo*/
+
+}
+
+tr:hover
+{ 
+    cursor: pointer; /*cuando paso por la tabla se pone la manito*/
+
+}
+
+
+fieldset
+{
+background-color: antiquewhite;/*cambia el fondo*/
+
+}
+
+/*-----------------------------------FLEXBOX------------------------------------------------------------*/
+
+
+.box
+{
+    height: 30px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px; /*da un margen hacia arriba*/
+    margin-right: 5px;/*da un margen hacia la derecha*/
+    font-size: 20px;/*tamaño de la fuente*/
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 10px; /*redondear el borde*/
+    border-width: 2px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    font-family: cursive;/*tipo de letra*/
+}
+
+.whitetext
+{
+    color: white;
+    font-size: 20px;
+}
+
+.flex-container
+{
+   height: 50px;
+   display: flex;
+   flex-wrap: wrap;/* respeta el tamaño de la caja si pongo "wrap" y si pongo "nowrap" no lo respeta*/
+   justify-content: center; /*te justifica (acomoda) los bloques en la pagina HORIZONTALMENTE*/
+   /*align-items: center ; /*te justifica (acomoda) los itemns en la pagina VERTICALMENTE*/
+   /*align-content: center;/*te justifica (acomoda) el bloque en la pagina VERTICALMENTE sin modificar los items*/
+  
+}
+
+.imagenremera
+{
+   height: 250px;
+   width: 270px;
+   border-style: solid; /*borde solido*/
+   border-color: white; /*color de borde*/
+   border-radius: 30px; /*redondear el borde*/
+   border-width: 4px; /*ancho de borde*/
+}
+
+.textoremera
+{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*-----------------------------------GRID DE PAGINA DE INICIO---------------------------------------------------------------*/
+
+.grid-container 
+{  
+   display: grid;
+   grid-template-columns: 0.3fr 2.4fr 0.3fr;
+   grid-template-rows: 0.3fr 0.2fr 1px;
+   gap: 0px 0px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "grid-navbar grid-navbar grid-navbar"
+     ". grid-main ."
+     "grid-footer grid-footer grid-footer";
+ }
+ 
+ .grid-navbar
+  { 
+      grid-area: grid-navbar; 
+      
+   }
+ 
+ .grid-main 
+ { 
+   margin-top: 15px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px 0.3fr 1fr 0fr;
+   gap: 10px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "color1 color1 color1 color1"
+     "box1 box2 box3 box4"
+     "color2 color2 color2 color2"
+     "color3 color3 color3 color3";
+   grid-area: grid-main;
+ }
+ 
+ .box1 
+ { 
+   grid-area: box1;
+   text-align: center;
+   border-style: none; /*no borde */
+   
+ }
+ 
+ .box2 
+ { 
+   grid-area: box2; 
+   text-align: center;
+   border-style: none; /*no borde */
+ }
+ 
+ .box3 
+ { 
+   grid-area: box3; 
+   text-align: center;
+   border-style: none; /*no borde */
+ }
+ 
+ .box4 
+ { 
+   grid-area: box4;
+   text-align: center;
+   border-style: none; /*no borde */
+ }
+ 
+ .grid-footer 
+ { 
+     grid-area: grid-footer;  
+     color: white;/*color de letra*/
+     font-size: 20px;/*tamaño de la fuente*/
+     text-align: right; /*texto hacia la derecha*/
+     text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+     
+ }
+ 
+ .textehite
+ { 
+   color: black; 
+   text-align: center;
+   
+ }
+
+ .color1
+ { 
+   grid-area: color1;
+   
+ }
+
+ .color2
+ { 
+    grid-area: color2;
+    color: rgb(201, 164, 14);/*color de letra*/
+    font-size: 20px;/*tamaño de la fuente*/
+    text-align: left;/*texto hacia la izquierda*/
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 30px; /*redondear el borde*/
+    border-width: 6px; /*ancho de borde*/
+   
+ }
+
+ .color3
+ { 
+   grid-area: color3;
+   
+ }
+/*-----------------------------------GRID DE PAGINA DE SERVICIO--------------------------------------------------------------*/
+.grid-container-servicio 
+{  
+    display: grid;
+    grid-template-columns: 0.3fr 2.4fr 0.3fr;
+    grid-template-rows: 350px 2500px 1px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-navbar-servicio grid-navbar-servicio grid-navbar-servicio"
+      ". grid-menu-servicio ."
+      "grid-footer-servicio grid-footer-servicio grid-footer-servicio";
+  }
+  
+  .grid-navbar-servicio 
+  { 
+      grid-area: grid-navbar-servicio; 
+  }
+  
+  .grid-menu-servicio
+   {  
+    
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
+    grid-template-rows: 1fr 0.6fr 0.6fr 0.6fr 2.2fr;
+    gap: 12px 26px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "color1-servicio color1-servicio color1-servicio color1-servicio"
+      ". box1-servicio box2-servicio ."
+      ". box3-servicio box4-servicio ."
+      ". box5-servicio box6-servicio ."
+      "color2-servicio color2-servicio color2-servicio color2-servicio";
+    grid-area: grid-menu-servicio;
+  }
+  
+  .color1-servicio 
+  { 
+      grid-area: color1-servicio; 
+    }
+  
+
+  .box1-servicio 
+  { 
+      grid-area: box1-servicio; 
+    }
+  
+  .box2-servicio 
+  { 
+      grid-area: box2-servicio; 
+    }
+  
+  .box3-servicio 
+  {
+       grid-area: box3-servicio;
+     }
+  
+  .box4-servicio 
+  { 
+      grid-area: box4-servicio; 
+    }
+  
+  .box5-servicio 
+  { 
+      grid-area: box5-servicio; 
+    }
+  
+  .box6-servicio 
+  { 
+      grid-area: box6-servicio; 
+    }
+  
+  .color2-servicio 
+  { 
+      grid-area: color2-servicio; 
+    }
+  
+  .grid-footer-servicio 
+  { 
+      grid-area: grid-footer-servicio;
+     color: white;/*color de letra*/
+     font-size: 20px;/*tamaño de la fuente*/
+     text-align: right; /*texto hacia la derecha*/
+     text-shadow: 3px 5px 5px grey; /*efecto difuminado*/ 
+    }
+  
+  
+
+/*------------------------------------------------------PARA CELLAR INICIO---------------------------------------------------------*/
+ @media (max-width: 576px) 
+
+{
+    
+    #titulo /*titulo principal*/
+    {
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 10px; /*redondear el borde*/
+    border-width: 5px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*fuente de texto*/
+    padding: 20px;/*el ancho del titulo*/
+    margin-left: 10px;
+    margin-right: 150px;
+    color: white;/*color del titulo*/
+    font-size: 10px; /*ancho de fuente*/
+    }
+
+    .logo/*logo del titulo*/
+    {
+    margin-top: 1px;
+    height: 50px;
+    width: 50px;
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 100px; /*redondear el borde*/
+    border-width: 1px; /*ancho de borde*/
+    text-align: center;/*central el texto*/
+    float: left;/*la imagen se va hacia la izquierda*/
+   
+    }
+    
+    
+    .imagenremera
+   {
+   height: 120px;
+   width: 250px;
+   border-style: solid; /*borde solido*/
+   border-color: white; /*color de borde*/
+   border-width: 4px; /*ancho de borde*/
+   }
+
+   .logofooter /*los logos de intagram facebook y whatapp del footer*/
+   {
+   
+    border-style: none; /*sin borde*/
+    text-align: center;/*central el texto*/
+    float: left;/*la imagen se va hacia la izquierda*/
+    height: 50px;
+    width: 50px;
+    
+   }
+
+   .color2
+    { 
+    grid-area: color2;
+    color: rgb(201, 164, 14);/*color de letra*/
+    font-size: 10px;/*tamaño de la fuente*/
+    text-align: left;/*texto hacia la izquierda*/
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 30px; /*redondear el borde*/
+    border-width: 6px; /*ancho de borde*/
+   
+    }
+
+  .grid-container {  display: grid;
+    
+      grid-template-columns: 0.2fr 2.6fr 0.2fr;
+      grid-template-rows: 100px 2000px 1fr;;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "grid-navbar grid-navbar grid-navbar"
+        ". grid-main ."
+        "grid-footer grid-footer grid-footer";
+    }
+    
+    .grid-navbar { grid-area: grid-navbar; }
+    
+    .grid-main 
+    {  
+      display: grid;
+      height: 500px;
+      grid-template-columns: -1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 10px 10px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "color1 color1 color1"
+        "box1 box1 box1"
+        "box2 box2 box2"
+        "box3 box3 box3"
+        "box4 box4 box4"
+        "color2 color2 color2";
+      grid-area: grid-main;
+    }
+    
+    .color1 
+    { 
+        grid-area: color1; 
+    }
+    
+    .box1 
+    { 
+        grid-area: box1; 
+        margin-top: 200px; 
+    }
+    
+    .box2 
+    {
+         grid-area: box2; 
+    }
+    
+    .box3 
+    { 
+        grid-area: box3; 
+    }
+    
+    .box4 
+    { 
+        grid-area: box4; 
+    }
+    
+    .color2 
+    { grid-area: color2; 
+    }
+    
+    .grid-footer 
+    { 
+        justify-content: center;   
+        grid-area: grid-footer;  
+        color: white;/*color de letra*/
+        font-size: 7px;/*tamaño de la fuente*/
+        text-align: start; /*texto hacia la derecha*/
+        
+    }
+
+/*-----------------------------------PARA EL CELULAR SERVICIO--------------------------------------------------------------*/
+.texto5 /*tipo de texto 5*/
+{
+    color: rgb(255, 255, 255);/*color de letra*/
+    font-size: 20px;/*tamaño de la fuente*/
+    text-align: center;/*texto centrado*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    list-style-type: none; /*elimina los puntitos de las lsitas*/
+  
+    
+}
+
+.textocentrado /*centrado de text0*/
+{
+    color: rgb(255, 255, 255);/*color de letra*/
+    font-size: 30px;/*tamaño de la fuente*/
+    text-align: center;/*central el texto*/
+    text-shadow: 3px 5px 5px grey; /*efecto difuminado*/
+    
+}
+
+.grid-container-servicio  {  display: grid;
+    grid-template-columns: -1fr 1fr 1fr;
+      grid-template-rows: 300px 3700px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". grid-navbar-servicio ."
+      ". grid-menu-servicio ."
+      ". grid-footer-servicio .";
+  }
+  
+  .grid-navbar-servicio 
+  { 
+      grid-area: grid-navbar-servicio;
+      
+      
+      
+    }
+  
+  .grid-menu-servicio {  display: grid;
+    grid-template-columns: 100px 15px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "color1-servicio color1-servicio color1-servicio"
+      "box1-servicio box1-servicio box1-servicio"
+      "box2-servicio box2-servicio box2-servicio"
+      "box3-servicio box3-servicio box3-servicio"
+      "box4-servicio box4-servicio box4-servicio"
+      "box5-servicio box5-servicio box5-servicio"
+      "box6-servicio box6-servicio box6-servicio"
+      "color2-servicio color2-servicio color2-servicio";
+    grid-area: grid-menu-servicio;
+    justify-content: center;
+  }
+  
+  .color1-servicio { grid-area: color1-servicio; }
+  
+  .color2-servicio { grid-area: color2-servicio; }
+  
+  .box1-servicio { 
+      grid-area: box1-servicio; 
+      justify-content: center;
+    }
+  
+  .box2-servicio 
+  { 
+      grid-area: box2-servicio; 
+      justify-content: center;
+
+    }
+  
+  .box3-servicio { 
+      grid-area: box3-servicio;
+      justify-content: center; 
+    }
+  
+  .box4-servicio 
+   { 
+      grid-area: box4-servicio;
+      justify-content: center;
+   }
+  
+  .box5-servicio 
+   { 
+      grid-area: box5-servicio;
+      justify-content: center; 
+    }
+  
+  .box6-servicio
+   {
+       grid-area: box6-servicio; 
+       justify-content: center;
+       
+   }
+  
+  .grid-footer-servicio
+   {
+       grid-area: grid-footer-servicio; 
+       justify-content: center;
+
+   }
+
+  
+  
+}
+
+img:hover
+{
+  transform: scale(1.5);
+
+}
+
+.box:hover
+{
+  background-color: rgba(6, 6, 6, 0.3);
+
+}
