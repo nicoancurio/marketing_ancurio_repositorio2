@@ -209,6 +209,7 @@ table /*tabla de plantilla de contenido*/
 }
 
 
+
 th /*ttitulos de la tabla de plantilla de contenido*/
 {
     font-size: 25px;/*tamaño de la fuente*/
@@ -223,11 +224,19 @@ td /*celdas de menor rango de la tabla de plantilla de contenido*/
 
 }
 
-tr:hover
-{ 
-    cursor: pointer; /*cuando paso por la tabla se pone la manito*/
-
+th:hover
+{
+  background-color: rgb(222, 191, 191);
+  cursor: pointer;/*cuando paso por la tabla se pone la manito*/
 }
+
+td:hover
+{
+  background-color: rgb(222, 191, 191);
+  cursor: pointer;/*cuando paso por la tabla se pone la manito*/
+}
+
+
 
 
 fieldset
@@ -297,10 +306,7 @@ background-color: antiquewhite;/*cambia el fondo*/
 .grid-container 
 {  
    display: grid;
-   grid-template-columns: 0.3fr 2.4fr 0.3fr;
-   grid-template-rows: 0.3fr 0.2fr 1px;
-   gap: 0px 0px;
-   grid-auto-flow: row;
+   gap: 10px 10px;
    grid-template-areas:
      "grid-navbar grid-navbar grid-navbar"
      ". grid-main ."
@@ -315,19 +321,16 @@ background-color: antiquewhite;/*cambia el fondo*/
  
  .grid-main 
  { 
+   grid-area: grid-main;
    margin-top: 15px;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 100px 0.3fr 1fr 1fr 0fr;
    gap: 10px 10px;
-   grid-auto-flow: row;
    grid-template-areas:
      "color1 color1 color1 color1"
      "box1 box2 box3 box4"
      "color2 color2 color2 color2"
      "color3 color3 color3 color3"
      "color4 color4 color4 color4";
-   grid-area: grid-main;
  }
  
  .box1 
@@ -423,10 +426,7 @@ background-color: antiquewhite;/*cambia el fondo*/
 .grid-container-servicio 
 {  
     display: grid;
-    grid-template-columns: 0.3fr 2.4fr 0.3fr;
-    grid-template-rows: 100px 2200px 1px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+    gap: 15px 15px;
     grid-template-areas:
       "grid-navbar-servicio grid-navbar-servicio grid-navbar-servicio"
       ". grid-menu-servicio ."
@@ -442,16 +442,11 @@ background-color: antiquewhite;/*cambia el fondo*/
    {  
     
     display: grid;
-    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
-    grid-template-rows: 1fr 0.6fr 0.6fr 0.6fr 2.2fr;
     gap: 12px 26px;
-    grid-auto-flow: row;
     grid-template-areas:
-      "color1-servicio color1-servicio color1-servicio color1-servicio"
-      ". box1-servicio box2-servicio ."
-      ". box3-servicio box4-servicio ."
-      ". box5-servicio box6-servicio ."
-      "color2-servicio color2-servicio color2-servicio color2-servicio";
+      "color1-servicio color1-servicio color1-servicio color1-servicio color1-servicio"
+      ". box1-servicio box2-servicio box3-servicio  ."
+      "color2-servicio color2-servicio color2-servicio color2-servicio color2-servicio";
     grid-area: grid-menu-servicio;
   }
   
@@ -476,21 +471,7 @@ background-color: antiquewhite;/*cambia el fondo*/
        grid-area: box3-servicio;
      }
   
-  .box4-servicio 
-  { 
-      grid-area: box4-servicio; 
-    }
-  
-  .box5-servicio 
-  { 
-      grid-area: box5-servicio; 
-    }
-  
-  .box6-servicio 
-  { 
-      grid-area: box6-servicio; 
-    }
-  
+
   .color2-servicio 
   { 
       grid-area: color2-servicio; 
@@ -505,7 +486,49 @@ background-color: antiquewhite;/*cambia el fondo*/
      text-shadow: 3px 5px 5px grey; /*efecto difuminado*/ 
     }
   
-  
+/*------------------------------------------------------GRID DE PAGINA DE PLANES---------------------------------------------------------*/
+.bodyplanesgrid 
+  { 
+    display: grid;
+    gap: 15px 15px;
+    grid-template-areas: 
+
+    "grid-navbar-planes grid-navbar-planes grid-navbar-planes grid-navbar-planes"
+    "titulo-secundario titulo-secundario titulo-secundario titulo-secundario" 
+    "textocentrado textocentrado textocentrado textocentrado "
+    ". tabla tabla ."
+    "texto3 texto3 texto3 texto3";
+
+       
+  }
+
+ .titulo-secundario
+  { 
+    grid-area: titulo-secundario;
+  }
+
+  .textocentrado
+  { 
+    grid-area: textocentrado;
+  }
+
+  #tabla 
+  { 
+    grid-area: tabla;
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-width: 3px; /*ancho de borde*/   
+  }
+
+  .texto3
+  { 
+    grid-area: texto3;
+  }
+
+  .grid-navbar-planes
+  { 
+    grid-area: grid-navbar-planes;    
+  }
 
 /*------------------------------------------------------PARA CELLAR INICIO---------------------------------------------------------*/
  @media (max-width: 576px) 
