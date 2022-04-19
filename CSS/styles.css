@@ -485,7 +485,47 @@ background-color: antiquewhite;/*cambia el fondo*/
      text-align: right; /*texto hacia la derecha*/
      text-shadow: 3px 5px 5px grey; /*efecto difuminado*/ 
     }
+
+    /*-----------------------------------GRID DE PAGINA DE NOSOTROS--------------------------------------------------------------*/
+    .bodynosotrosgrid 
+    { 
+      display: grid;
+      gap: 15px 15px;
+      grid-template-areas: 
   
+      "grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros"
+      ". box1-nosotros box1-nosotros  ."
+      ". box2-nosotros box2-nosotros  ."
+      ". box3-nosotros box3-nosotros  ."
+      "texto3 texto3 texto3 texto3"; 
+    }
+  
+  
+    .grid-navbar-nosotros
+    { 
+      grid-area: grid-navbar-nosotros;    
+    }
+
+    .box1-nosotros 
+    { 
+        grid-area: box1-nosotros; 
+    }
+
+    .box2-nosotros 
+    { 
+        grid-area: box2-nosotros; 
+    }
+
+    .box3-nosotros 
+    { 
+        grid-area: box3-nosotros; 
+    }
+
+    .texto3
+    { 
+      grid-area: texto3;
+    }
+
 /*------------------------------------------------------GRID DE PAGINA DE PLANES---------------------------------------------------------*/
 .bodyplanesgrid 
   { 
@@ -782,7 +822,7 @@ background-color: antiquewhite;/*cambia el fondo*/
 
 img:hover
 {
-  transform: scale(1.5);
+  transform: scale(1.2);
 
 }
 

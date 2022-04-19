@@ -5,72 +5,106 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=, initial-scale=1.0">
    <link rel="shortcut icon" href="../IMG/MKT.jpeg" type="image/x-icon">
+   <title>MKT DIGITAL - SERVICIOS </title>
+    <!-- LINK DE ANIMACIONES -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rrel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- MI CSS ANTES TODO -->
    <link rel="stylesheet" href="../CSS/styles.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>MKT DIGITAL - NOSOTROS </title>
 </head>
 
-<body>
-   <h1 class="wow animate__animated animate__tada titulo-secundario"> NOSOTROS </h1> 
+<body class="bodynosotrosgrid">
+        <!-- COMIENZO NAVBAR BOOTSTRAP -->
+        <div class="grid-navbar-nosotros ">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="#">
+              <img class="logonavbar"  src="../IMG/MKT.jpeg" width="40" height="40">
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-     <!--  LO QUE VA A ARRIBA -->
-   
+                  <!--INICIO -->
+                 <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                 </li>
+
+                 <!--SERVICIOS -->
+                 <li class="nav-item">
+                   <a class="nav-link" href="../PAGES/servicios.html"> Servicios </a>
+                 </li>
+
+                 <!--PLANES DE CONTENIDO -->
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Plan de contenido
+                   </a>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="../PAGES/planesdecontenido.html">Plan basico</a></li>
+                     
+                     <li><a class="dropdown-item" href="../PAGES/planesdecontenido.html">Plan estandar</a></li>
+                     
+                     <li><a class="dropdown-item" href="../PAGES/planesdecontenido.html">Plan premium</a></li>
+                   </ul>
+                 </li>
+
+                 <!--NOSOTROS -->
+                 <li class="nav-item">
+                    <a class="nav-link" href="../PAGES/nosotros.html"> Nosotros</a>
+                  </li>
+
+                  <!--CONTACTOS -->
+                 <li class="nav-item">
+                    <a class="nav-link" href="../PAGES/contacto.html"> Contacto</a>
+                  </li>
+
+
+               </ul>
+
+               <form class="d-flex">
+                 <button type="button" class="btn btn-secondary d-flex justify-content-end">Nosotros</button>
+               </form>
+             </div>
+           </div>
+         </nav>
+ </div>
+ <!-- FIN  NAVBAR BOOTSTRAP -->
+
+<div class="box1-nosotros">  
+     <br>
+     <br>
+     <h3 class="textocentrado wow animate__animated animate__fadeInRight"> NUESTRO OBJETIVO </h3> 
+     <P  class="texto2"> Asistir a nuestros clientes en el desarrollo de negocios en medios digitales; teniendo como centro "internet", la recopilación de "datos" (big data), el "análisis" (data science) y el posterior "desarrollo".</P>
+</div> 
+
+<div class="box2-nosotros">
    <br>
-   <header>
-    <nav>
-      <ul>
-         <li class="menu"> <!-- Menu de la pagina de inicio-->
-            <a href="../index.html">INICIO</a>
-         </li>
-
-         <li class="menu"> <!-- Menu de la pagina de servicios-->
-            <a href="../PAGES/servicios.html">SERVICIOS</a>
-         </li>
-
-         <li class="menu">  <!-- Menu de la pagina de planes de contenido-->
-           <a href="../PAGES/planesdecontenido.html">PLANES DE CONTENIDO</a>
-        </li>
-
-        <li class="menu"> <!-- Menu de la pagina de nosotros-->
-           <a href="../PAGES/nosotros.html">NOSOTROS</a>
-        </li>
-
-        <li class="menu"> <!-- Menu de la pagina de contacto-->
-           <a href="../PAGES/contacto.html">CONTACTO</a>
-        </li>
-
-      </ul>
-    </nav>
-
-   </header>
- <br>
- <br>
- <hr>
- <hr>  
- <br>
- <br>
-
- <h3 class="textocentrado"> NUESTRO OBJETIVO </h3> 
-<P  class="texto2"> Asistir a nuestros clientes en el desarrollo de negocios en medios digitales; teniendo como centro "internet", la recopilación de "datos" (big data), el "análisis" (data science) y el posterior "desarrollo".</P>
- <br>
- <hr>
- <hr>
- <br>
-
- <h3 class="textocentrado"> QUE HACEMOS? </h3> 
- <P  class="texto2"> Nos encargamos de crear estrategias negocios, generación de contenidos, la distribución en medios digitales (blog, redes sociales, newsletter, etc), seguimiento de consultas de usuarios.
+   <hr>
+   <hr>
+   <br>
+   <h3 class="textocentrado wow animate__animated animate__fadeInRight"> QUE HACEMOS? </h3> 
+   <P  class="texto2"> Nos encargamos de crear estrategias negocios, generación de contenidos, la distribución en medios digitales (blog, redes sociales, newsletter, etc), seguimiento de consultas de usuarios.
 
     Alineamos toda iniciativa en internet con los objetivos comerciales, creando contenido digitales que generen interacción de los usuarios, buscando maximizar la experiencia de usuario con su marca.
     
     Contamos con especialistas en diferentes áreas:"sistemas / programadores","diseño de experiencia de usuario","marketing digital", "redactores" y un catalogo de recursos externos que gestionamos en "fotografía", "animaciones", "locución", etc.</P>
- <br> 
- <hr>
- <hr>
- <br>
- <h3 class="textocentrado"> DONDE ESTAMOS? </h3> 
- <iframe class="webcentrado" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5715491843084!2d-58.3843159849201!3d-34.589706180463146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab06449bac3%3A0xfb67208f15f2e2b!2sAv.%209%20de%20Julio%201535%2C%20C1011%20CABA!5e0!3m2!1ses-419!2sar!4v1647135535883!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
  
+</div> 
+
+<div class="box3-nosotros">
+   <br> 
+   <hr>
+   <hr>
+   <br>
+   <h3 class="textocentrado wow animate__animated animate__fadeInRight"> DONDE ESTAMOS? </h3> 
+   <iframe class="webcentrado" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5715491843084!2d-58.3843159849201!3d-34.589706180463146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab06449bac3%3A0xfb67208f15f2e2b!2sAv.%209%20de%20Julio%201535%2C%20C1011%20CABA!5e0!3m2!1ses-419!2sar!4v1647135535883!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
  <footer  class="texto3">
    <br>
    <hr>
@@ -87,9 +121,9 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script>
-new WOW().init();
-</script>
+<script> new WOW().init(); </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 </body>
 
