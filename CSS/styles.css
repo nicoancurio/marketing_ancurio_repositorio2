@@ -92,8 +92,9 @@ a /*hace que los redireccionamientos a la pagina no salgan como hipervinculos*/
 
 .formulario
 {
-    color: rgb(0, 0, 0);/*color de letra*/
+    color: gray;/*color de letra*/
     font-size: 20px;/*ancho de fuente*/
+    text-shadow: 1px 2px 2px grey; /*efecto difuminado*/
 }
 
 .texto1 /*tipo de texto 1*/
@@ -486,45 +487,6 @@ background-color: antiquewhite;/*cambia el fondo*/
      text-shadow: 3px 5px 5px grey; /*efecto difuminado*/ 
     }
 
-    /*-----------------------------------GRID DE PAGINA DE NOSOTROS--------------------------------------------------------------*/
-    .bodynosotrosgrid 
-    { 
-      display: grid;
-      gap: 15px 15px;
-      grid-template-areas: 
-  
-      "grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros"
-      ". box1-nosotros box1-nosotros  ."
-      ". box2-nosotros box2-nosotros  ."
-      ". box3-nosotros box3-nosotros  ."
-      "texto3 texto3 texto3 texto3"; 
-    }
-  
-  
-    .grid-navbar-nosotros
-    { 
-      grid-area: grid-navbar-nosotros;    
-    }
-
-    .box1-nosotros 
-    { 
-        grid-area: box1-nosotros; 
-    }
-
-    .box2-nosotros 
-    { 
-        grid-area: box2-nosotros; 
-    }
-
-    .box3-nosotros 
-    { 
-        grid-area: box3-nosotros; 
-    }
-
-    .texto3
-    { 
-      grid-area: texto3;
-    }
 
 /*------------------------------------------------------GRID DE PAGINA DE PLANES---------------------------------------------------------*/
 .bodyplanesgrid 
@@ -569,6 +531,83 @@ background-color: antiquewhite;/*cambia el fondo*/
   { 
     grid-area: grid-navbar-planes;    
   }
+/*-----------------------------------GRID DE PAGINA DE NOSOTROS--------------------------------------------------------------*/
+.bodynosotrosgrid 
+{ 
+  display: grid;
+  gap: 15px 15px;
+  grid-template-areas: 
+
+  "grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros grid-navbar-nosotros"
+  ". box1-nosotros box1-nosotros  ."
+  ". box2-nosotros box2-nosotros  ."
+  ". box3-nosotros box3-nosotros  ."
+  "texto3 texto3 texto3 texto3"; 
+}
+
+
+.grid-navbar-nosotros
+{ 
+  grid-area: grid-navbar-nosotros;    
+}
+
+.box1-nosotros 
+{ 
+    grid-area: box1-nosotros; 
+}
+
+.box2-nosotros 
+{ 
+    grid-area: box2-nosotros; 
+}
+
+.box3-nosotros 
+{ 
+    grid-area: box3-nosotros; 
+}
+
+.texto3
+{ 
+  grid-area: texto3;
+}
+/*-----------------------------------GRID DE PAGINA DE CONTACTO--------------------------------------------------------------*/
+.bodycontactogrid 
+{ 
+  display: grid;
+  gap: 15px 15px;
+  grid-template-areas: 
+
+  "grid-navbar-contacto grid-navbar-contacto grid-navbar-contacto grid-navbar-contacto"
+  ". box1-contacto box1-contacto  ."
+  ". box2-contacto box2-contacto  ."
+  "texto3 texto3 texto3 texto3"; 
+}
+
+
+.grid-navbar-contacto
+{ 
+  grid-area: grid-navbar-contacto;    
+}
+
+.box1-contacto 
+{ 
+    grid-area: box1-contacto; 
+}
+
+.box2-contacto 
+{ 
+    grid-area: box2-contacto; 
+    border-style: solid; /*borde solido*/
+    border-color: white; /*color de borde*/
+    border-radius: 20px; /*redondear el borde*/
+    border-width: 4px; /*ancho de borde*/
+    
+}
+
+.texto3
+{ 
+  grid-area: texto3;
+}
 
 /*------------------------------------------------------PARA CELLAR INICIO---------------------------------------------------------*/
  @media (max-width: 576px) 
