@@ -678,26 +678,23 @@ background-color: antiquewhite;/*cambia el fondo*/
    
     }
 
-  .grid-container {  display: grid;
-    
-      grid-template-columns: 0.2fr 2.6fr 0.2fr;
-      grid-template-rows: 100px 2000px 1fr;;
-      gap: 0px 0px;
-      grid-auto-flow: row;
+  .grid-container {  
+      display: grid;
       grid-template-areas:
         "grid-navbar grid-navbar grid-navbar"
         ". grid-main ."
         "grid-footer grid-footer grid-footer";
     }
     
-    .grid-navbar { grid-area: grid-navbar; }
+    .grid-navbar { 
+      grid-area: grid-navbar; 
+    }
     
     .grid-main 
     {  
       display: grid;
       height: 500px;
-      grid-template-columns: -1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+     
       gap: 10px 10px;
       grid-auto-flow: row;
       grid-template-areas:
@@ -706,7 +703,10 @@ background-color: antiquewhite;/*cambia el fondo*/
         "box2 box2 box2"
         "box3 box3 box3"
         "box4 box4 box4"
-        "color2 color2 color2";
+        "color2 color2 color2"
+        "color3 color3 color3"
+        "color4 color4 color4"
+        ;
       grid-area: grid-main;
     }
     
@@ -741,13 +741,10 @@ background-color: antiquewhite;/*cambia el fondo*/
     }
     
     .grid-footer 
-    { 
-        justify-content: center;   
-        grid-area: grid-footer;  
-        color: white;/*color de letra*/
-        font-size: 7px;/*tamaño de la fuente*/
-        text-align: start; /*texto hacia la derecha*/
-        
+    {   
+      grid-area: grid-footer;  
+      margin-top: 2000px;
+    
     }
 
 /*-----------------------------------PARA EL CELULAR SERVICIO--------------------------------------------------------------*/
@@ -771,11 +768,8 @@ background-color: antiquewhite;/*cambia el fondo*/
     
 }
 
-.grid-container-servicio  {  display: grid;
-    grid-template-columns: -1fr 1fr 1fr;
-      grid-template-rows: 300px 3700px 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+.grid-container-servicio  {  
+    display: grid;
     grid-template-areas:
       ". grid-navbar-servicio ."
       ". grid-menu-servicio ."
@@ -790,11 +784,8 @@ background-color: antiquewhite;/*cambia el fondo*/
       
     }
   
-  .grid-menu-servicio {  display: grid;
-    grid-template-columns: 100px 15px 100px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+  .grid-menu-servicio {  
+    display: grid;
     grid-template-areas:
       "color1-servicio color1-servicio color1-servicio"
       "box1-servicio box1-servicio box1-servicio"
